@@ -1,4 +1,4 @@
 shellista-write
 ===============
 
-Ahellista plugin to write text to file
+Shellista plugin to write/append text to file

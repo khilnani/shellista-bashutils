@@ -6,6 +6,7 @@ Usage: write [String] [File]
 from ... tools.toolbox import bash
 import os
 
+alias=['w']
 
 def main(self, line):
     """Write to file"""

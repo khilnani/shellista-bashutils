@@ -6,6 +6,7 @@ Usage: append [String] [File]
 from ... tools.toolbox import bash
 import os
 
+alias=['a']
 
 def main(self, line):
     """Append to file"""

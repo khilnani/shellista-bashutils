@@ -1,4 +1,7 @@
 shellista-bashutils
 ===============
 
-Shellista plugin to write/append text to file.
+Shellista plugin to 
+
+- write/append text to file
+- grep files

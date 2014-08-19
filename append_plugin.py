@@ -22,6 +22,7 @@ def main(self, line):
       elif (os.path.exists(target)):
         try:
           with open(target, 'a') as f:
+            f.write("\n")
             f.write(content)
             f.close()
           print "Appending to: %s " % target

@@ -23,7 +23,6 @@ def main(self, line):
         print "write: %s: Is a directory" % target
       else:
         try:
-          contents = ""
           with open(target, 'w') as f:
             f.write(content)
             f.close()

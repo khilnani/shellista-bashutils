@@ -29,7 +29,7 @@ def main(self, line):
             f.close()
           print "Writing to: %s " % target
           print ">>>>"
-          print contents
+          print content
           print ">>>>"
         except Exception:
           print "write: Unable to create file %s" % target

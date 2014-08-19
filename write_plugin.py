@@ -3,7 +3,7 @@ Write a string to a file
 Usage: write [String] [Filename]
 '''
 
-from .. tools.toolbox import bash
+from ... tools.toolbox import bash
 import os
 
 

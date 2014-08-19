@@ -1,6 +1,9 @@
 '''append:
 Append a string to a file
-Usage: append [String] [File]
+
+Usage:
+  append [String] [File]
+  a [String] [File]
 '''
 
 from ... tools.toolbox import bash
@@ -14,7 +17,7 @@ def main(self, line):
     if args is None:
       return
     elif (len(args) != 2):
-      print "append usage: append [String] [File]"
+      print "append usage: append [String] [File] or: a [String] [File]"
     else:
       content = args[0]
       target = args[1]
